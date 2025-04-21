@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: url("https://th.bing.com/th/id/R.7f42d5b3ac25884b6f64bee0a32de6c8?rik=j769ak%2fyg5b28w&riu=http%3a%2f%2f4.bp.blogspot.com%2f-9IUz0HQin2E%2fUADapNU13gI%2fAAAAAAAAAvs%2feqOG2KuN9Dc%2fs1600%2fw7.jpg&ehk=MgpvcOsCP7XgWoiM0UkKhsP5IZ1OnIWHd92JRgFmV%2bY%3d&risl=&pid=ImgRaw&r=0")
+    no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #00e5ff;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+header img:hover {
+  transform: scale(1.1);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  color: #00e5ff;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+section {
+  max-width: 1300px;
+  margin: 32px auto;
+  padding: 32px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  box-shadow: 0 0 15px #00e5ff50;
+}
+
+h2 {
+  color: #00ffc3;
+  margin-bottom: 16px;
+  font-size: 28px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.botones {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.boton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #00ffc3;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #00ffc3;
+}
+.boton:hover {
+  background-color: #00e5ff;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 0 10px #00e5ff, 0 0 10px #00e5ff;
+}
+.proyecto {
+  margin-top: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proyecto:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px #00ffc3;
+}
+
+.proyecto h3 {
+  color: #ffeb3b;
+}
