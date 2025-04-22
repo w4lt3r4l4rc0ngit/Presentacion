@@ -12,7 +12,10 @@
         <img src="walarcon.png" alt="Walter">
             <h1> Walter Alarcon Alvarado </h1>
             <p>Desarrollador Web | Soporte Tecnico</p>
+            <p>walteralarcon202@gmail.com <a onclick="copyEmail()"><i class="fa fa-clone" aria-hidden="true"></i></a></p> <p id="msg" style="color:#00ffc3; display:none;">¡Correo copiado!</p>
         </img>
+        
+
     </header>
 
     <section>
@@ -52,4 +55,12 @@
       </section>
     
 </body>
+<script>
+    function copyEmail() {
+      navigator.clipboard.writeText("walteralarcon202@gmail.com");
+      const msg = document.getElementById("msg");
+      msg.style.display = "block";
+      setTimeout(() => msg.style.display = "none", 2000);
+    }
+  </script>
 </html>

@@ -58,8 +58,8 @@ h2 {
 }
 
 p {
-  line-height: 1.6;
-  margin-bottom: 16px;
+  line-height: 1;
+  margin-bottom: 10px;
 }
 
 .botones {
@@ -102,4 +102,13 @@ p {
 
 .proyecto h3 {
   color: #ffeb3b;
+}
+
+.btn_correo {
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
 }
