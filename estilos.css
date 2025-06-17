@@ -28,7 +28,7 @@ header img {
 }
 
 header img:hover {
-  transform: scale(5);
+  transform: scale(1.1);
 }
 
 header h1 {
@@ -43,7 +43,7 @@ header p {
 }
 
 section {
-  max-width: 1300px;
+  max-width: 1300px; 
   margin: 32px auto;
   padding: 32px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -61,6 +61,12 @@ p {
   line-height: 1;
   margin-bottom: 10px;
 }
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: rgba(0, 0, 0, 0.6);
+  }
 
 .botones {
   display: flex;
